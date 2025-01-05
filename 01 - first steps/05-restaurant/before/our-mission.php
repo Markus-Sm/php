@@ -15,7 +15,8 @@
       <h1>Culinary Cove</h1>
       <p>Your sanctuary for exceptional flavors</p>
       <nav>
-        <a href="our-mission.html">Our mission</a>
+        <a href="our-mission.php">Our mission</a>
+        <a href="ingredients.php">Our Ingredients</a>
       </nav>
     </header>
 
@@ -27,7 +28,7 @@
         sourcing only the finest ingredients, carefully crafting dishes that
         bridge the gap between traditional and modern cooking techniques. Our
         culinary team is driven by a shared passion for gastronomy, always
-        striving to create unforgettable meals that resonate with our guests..
+        striving to create unforgettable meals that resonate with our guests.
       </p>
       <figure style="text-align: center">
         <img
