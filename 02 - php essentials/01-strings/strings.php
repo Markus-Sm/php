@@ -9,15 +9,13 @@
 <body>
     <pre><?php
 
-$greeting = 'I\'m a string';
-echo $greeting . '!!! ' . $greeting;
-echo '<br />';
+    $yourName = "John Doe";
+    $yourAge = 45;
 
-$name = 'Jannis';
-$subject = 'PHP';
+    $promoCode = 'SUMMER_SALE';
+echo "Seasonal Offer! 🤑 Use \"{$promoCode}\" for an exclusive discount.";
+    
 
-$text = 'I\'m ' . $name . ' and I want to learn the language ' . $subject;
-echo $text . '!';
     ?></pre>
 </body>
 </html>

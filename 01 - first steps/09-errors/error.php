@@ -2,10 +2,8 @@
 echo '...';
 
 $pageTitle = 'A restaurant website';
-echo $pagetitle;
+echo $pageTitle;
 
-include 'doesnotexist.php';
 
-pageTitle();
 
 echo '---';
