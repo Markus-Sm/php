@@ -8,20 +8,18 @@
 </head>
 <body>
     <pre><?php
-include 'vars.php';
+    include 'vars.php';
 
-if ($serverStatus === 'ok') {
-    echo "🟢🟢🟢🟢🟢\n";
-    echo '🟢 Welcome to our website! Browse and enjoy our content';
-}
-if ($serverStatus === 'maintenance') {
-    echo "🔴🔴🔴🔴🔴\n";
-    echo '🔴 We\'re currently undergoing maintenance. Please check back later';
-}
+    
 
-echo "\n----\n";
-if ($serverStatus === 'ok') echo "🟢🟢🟢🟢🟢\n";
-if ($serverStatus === 'maintenance') echo "🔴🔴🔴🔴🔴\n";
+    if($serverStatus === 'ok') {
+        echo "Welcome to our website!\n";
+    }
+
+    if($serverStatus === 'maintenance'){
+        echo "The server is under maintenance.\n Please come back later.\n";
+    }
+
     ?></pre>
 </body>
 </html>

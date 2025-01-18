@@ -8,17 +8,13 @@
 </head>
 <body>
     <pre><?php
+
+    $yourName = "John Doe";
+    $yourAge = 45;
        
-var_dump('Hello from a var_dump');
-var_dump('💩');
+    $message = "Hi $yourName, you are $yourAge years old";
 
-var_dump(123);
-var_dump(42.42);
-
-var_dump('4' + 5);
-
-$message = 'Hello';
-var_dump($message);
+    var_dump("żółć");
 
     ?></pre>
 </body>

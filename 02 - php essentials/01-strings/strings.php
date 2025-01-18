@@ -15,6 +15,7 @@
     $promoCode = 'SUMMER_SALE';
 echo "Seasonal Offer! 🤑 Use \"{$promoCode}\" for an exclusive discount.";
     
+    var_dump('Hi from a var_dump');
 
     ?></pre>
 </body>
