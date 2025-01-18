@@ -5,25 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./simple.css" />
     <title>Document</title>
-    <style> h1 { width: 20rem; height: 10rem; background: red; }</style>
+    <style> h1 { width: 20rem; height: 10rem; background: royalblue; }</style>
 </head>
 <body>
-    <pre>
+<pre>
 
-        <?php 
+<?php $pageTitle = 'PHP is amazing!'; ?>
 
-            $pageTitle = '';
-            var_dump(isset($pageTitle));
-            var_dump(empty($pageTitle));
-        ?>
-    
-    </pre>
+</pre>
 
-    <?php
-            if(isset($pageTitle) && !empty($pageTitle)) {
-                echo "<h1>{$pageTitle}</h1>";
-            }       
-    ?>
+<?php if(!empty($pageTitle) && isset($pageTitle)): ?>
+        <h1>
+            <span><?php echo $pageTitle; ?></span>
+        </h1>
+
+    <?php endif; ?>
 
 </body>
 </html>
