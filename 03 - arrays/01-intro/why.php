@@ -7,31 +7,34 @@
     <title>Document</title>
 </head>
 <body>
-<?php
-$category1 = 'Programming';
-$category2 = 'Business';
-$category3 = 'Art & Drawing';
-$category4 = 'Self improvment';
-$category5 = 'History';
-?>
+<pre>
 
-<ul>
-    <li><?php echo $category1; ?></li>
-    <li><?php echo $category2; ?></li>
-    <li><?php echo $category3; ?></li>
-    <li><?php echo $category4; ?></li>
-    <li><?php echo $category5; ?></li>
-</ul>
+    <?php 
+    
+        $names = [
+            'Emily Johnson',
+            'Michael Smith',
+            'Sarah Williams',
+            'James Brown',
+            "Jenifer Davis",
+            "William Miller",
+            "Marek Samofał",
+        ];
 
+        $num = count($names);
 
+        $choice = rand(0, $num - 1);
 
+        echo "The winner is: {$names[$choice]}";
 
-<select>
-    <option><?php echo $category1; ?></option>
-    <option><?php echo $category2; ?></option>
-    <option><?php echo $category3; ?></option>
-    <option><?php echo $category4; ?></option>
-</select>
+        echo "<br />";
+
+        echo $names[rand(0, count($names) - 1)];
+        
+
+    ?>
+
+</pre>  
 
 </body>
 </html>

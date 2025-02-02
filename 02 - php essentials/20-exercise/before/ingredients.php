@@ -1,12 +1,13 @@
 <?php 
 
-$pageTitle = 'Ingredients';
+// $pageTitle = 'Ingredients';
 $pageKey = 'ingredients';
-$headerImg = 'images/pexels-julia-volk-5273044.jpg';
+// $headerImg = 'images/pexels-julia-volk-5273044.jpg';
+$isIngredients = true;
 include 'inc/header.inc.php'; 
 
 ?>
-    <h1>Our ingredients</h1>
+    <h1 <?php if (!empty($isIngredients)) { ?>style="color: royalblue;"<?php } ?> >Our ingredients</h1>
     <p>
       At Culinary Cove, our ethos is deeply rooted in the belief that
       exceptional cuisine starts with exceptional ingredients. That's
